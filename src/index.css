@@ -22,6 +22,11 @@ html, body, #root {
   box-sizing: border-box;
 }
 
+html, body {
+  touch-action: manipulation;
+}
+
+
 body {
   display: flex;
   flex-direction: column;
