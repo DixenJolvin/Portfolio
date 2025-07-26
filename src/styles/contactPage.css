@@ -1,0 +1,15 @@
+/* Footer wrapper to center text */
+.contact-footer {
+ 
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Footer text styling */
+.contact-footer-text {
+  font-size: 14px;
+  color: #858585;
+  text-align: center;
+}

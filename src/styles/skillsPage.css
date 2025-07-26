@@ -1,0 +1,91 @@
+/* Updated Skills Page CSS - Better approach */
+
+.skills-container {
+  background: white;
+  padding: 80px 20px;              /* Removed min-height and overflow properties */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.skills-title {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 50px;
+}
+
+.skills-cloud {
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 18px;
+  align-items: center;
+  padding-bottom: 40px;
+}
+
+.skill-bubble {
+  background: #f8f8f8;
+  color: #555;
+  padding: 15px 25px;
+  border-radius: 50px;
+  font-size: 1rem;
+  font-weight: 600;
+  border: 2px solid #e8e8e8;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.skill-bubble:hover {
+  background: #666;
+  color: white;
+  transform: translateY(-5px) scale(1.05);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+  border-color: #666;
+}
+
+.skill-bubble:nth-child(2n) {
+  background: #f2f2f2;
+  border-color: #ddd;
+}
+
+.skill-bubble:nth-child(2n):hover {
+  background: #777;
+  border-color: #777;
+}
+
+.skill-bubble:nth-child(3n) {
+  background: #f5f5f5;
+  border-color: #e0e0e0;
+}
+
+.skill-bubble:nth-child(3n):hover {
+  background: #888;
+  border-color: #888;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  .skills-container {
+    padding: 60px 20px 40px 20px;
+  }
+  
+  .skills-title {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+  }
+  
+  .skills-cloud {
+    gap: 15px;
+    padding-bottom: 30px;
+  }
+  
+  .skill-bubble {
+    padding: 12px 20px;
+    font-size: 0.9rem;
+  }
+}
