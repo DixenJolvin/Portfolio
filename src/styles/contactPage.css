@@ -1,6 +1,6 @@
 /* Footer wrapper to center text */
 .contact-footer {
- 
+  background-color: #ffffff; /* ✅ Light background */
   padding: 20px 0;
   display: flex;
   justify-content: center;

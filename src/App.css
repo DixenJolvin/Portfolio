@@ -49,3 +49,22 @@ body {
 .read-the-docs {
   color: #888;
 }
+
+@media (prefers-color-scheme: dark) {
+  body, .homepage, .right, footer {
+    background-color: #ffffff !important;
+    color: #000000 !important;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .contact-footer {
+    background-color: #ffffff !important;
+    color: #000000 !important;
+  }
+
+  .contact-footer-text {
+    color: #000000 !important;
+  }
+}
+

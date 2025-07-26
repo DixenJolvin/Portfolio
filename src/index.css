@@ -79,3 +79,22 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+@media (prefers-color-scheme: dark) {
+  body, .homepage, .right, footer {
+    background-color: #ffffff !important;
+    color: #000000 !important;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .contact-footer {
+    background-color: #ffffff !important;
+    color: #000000 !important;
+  }
+
+  .contact-footer-text {
+    color: #000000 !important;
+  }
+}
+
